@@ -9,7 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const cookieLocale = document.cookie
       .split("; ")
-      .find((row) => row.startsWith("MYNEXTAPP_LOCALE="))
+      .find((row) => row.startsWith("MYNEXTAPP_LOCALE"))
       ?.split("=")[1];
 
     if (cookieLocale) {

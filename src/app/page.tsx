@@ -10,7 +10,7 @@ export async function generateMetadata({
   const title = (messages.TabTitles as { home: string })?.home;
   // const title = messages.TabTitles?.home;
   return {
-    title,
+    title
   };
 }
 
