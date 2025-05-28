@@ -21,7 +21,7 @@ export default function Home() {
     <main className="flex flex-col items-center gap-8">
       <ol className="list-inside list-decimal text-sm text-center">
         <li className="mb-2">
-          {t("list1")}
+          {t("list1")}{" "}
           <code className="bg-black/[0.5]">app/page.tsx</code>
         </li>
         <li>{t("list2")}</li>
