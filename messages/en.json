@@ -5,5 +5,8 @@
   "HomePage": {
     "list1": "Get started by editing",
     "list2": "Create a new page in the pages directory"
+  },
+  "about":{
+    "text": "This is the about page"
   }
 }

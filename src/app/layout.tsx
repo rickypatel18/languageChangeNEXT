@@ -14,7 +14,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={` antialiased`}>
+      <body>
         <NextIntlClientProvider messages={message}>
           <div className="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-4 py-16">
             <Navbar />
